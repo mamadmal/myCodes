@@ -1,0 +1,58 @@
+.display__list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.list__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: white;
+  max-width: 150px;
+  min-height: 200px;
+  max-height: 100%;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+.list__top > img {
+  margin-bottom: -35px;
+  height: 60px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  object-fit: cover;
+}
+
+.list__top > .MuiAvatar-colorDefault {
+  background-color: #70b5f9;
+  width: 70px;
+  height: 70px;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+}
+
+.list__top > .MuiAvatar-root {
+  width: 70px;
+  height: 70px;
+  border: 2px solid rgb(255, 255, 255);
+  display: flex;
+}
+
+.breakpoint {
+  /* One column for smartphones */
+  max-width: 100%;
+  display: inline-flex;
+}
+
+.over__image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 30px;
+  opacity: 80%;
+  background-color: white;
+  border-radius: 50%;
+  margin: 10px;
+}

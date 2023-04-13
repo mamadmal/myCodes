@@ -1,0 +1,126 @@
+.navbar {
+    display: flex;
+    font-family: Helvetica;
+    font-weight: 300;
+    font-family: 'Iranian Sans', sans-serif;
+}
+
+
+
+.h1 {
+    text-align: right;
+    float: right;
+    margin-top: 2em;
+    color: rgb(234, 84, 85);
+    animation: changebk 20s infinite alternate linear;
+    z-index: 1;
+}
+
+
+@keyframes changebk {
+    0%{
+        color: #21387b;
+    }
+    25%{
+        color: #4174ad;
+    }
+    50%{
+        color: #5da8df;
+    }
+    75%{
+        color: #4174ad;
+    }
+    100%{
+        color: #20548f;
+    }
+}
+
+
+.navbar-logo{
+    width: 200px;
+    height: auto;
+}
+
+.container{
+    overflow: auto ;
+}
+
+.img-img {
+  float: left;
+  width: 40em;
+  height: auto;
+  position: absolute;
+  left: -20px; 
+  z-index: -1;
+
+}
+
+  
+  .active, .dot:hover {
+    background-color: #717171;
+   
+  }
+
+
+  .sec-view{
+    z-index: -1;
+    margin-top: 11em;
+    background-color: #e7e7e7;
+    height: 15em;
+    width: 100%;
+    display: table;
+  }
+
+  .you-may-like{
+   display: table-cell;
+   text-align: right;
+   vertical-align: middle;
+   padding-right: 4em;
+    width: 50%;
+  }
+  .div-btn{
+    display: table-cell;
+    vertical-align: middle;
+    
+ 
+  }
+
+  .main-div-btn{
+    width: 7em;
+    border-radius: 2em;
+    padding: 1em;
+    margin: 1em;
+    font-family: 'Iranian Sans', sans-serif;
+
+  }
+
+  .forth-pic-div{
+    
+    height: 35em;
+    width: 100%;
+    display: table;
+    margin-top: 3em;
+  }
+
+  .left-side{
+    display: table-cell;
+   text-align: right;
+   vertical-align: middle;
+   background-color: #e7e7e7;
+    width: 50%;
+    height: 34em;
+ 
+  }
+
+  hr{
+    width: 80%;
+  }
+
+  .span-in-forth{
+    margin-right: 2em;
+  }
+  .h1-in-forth{
+    margin: auto;
+    margin-right: 2em;
+  }
+

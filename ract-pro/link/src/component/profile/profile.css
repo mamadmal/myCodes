@@ -1,0 +1,18 @@
+.containerP{
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    height: 100%;
+}
+
+.profile-div{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(166, 183, 240);
+}
+
+.back-img{
+    width: 90%;
+    height: 6rem;
+}

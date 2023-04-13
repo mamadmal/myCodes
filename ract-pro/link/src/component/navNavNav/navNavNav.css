@@ -1,0 +1,57 @@
+.containerB{
+    overflow: auto;
+    height: 3rem;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.search-gr {
+    float: left;
+    height: 2rem;
+    width: 40%;
+    
+}
+
+.search-bx{
+    height: 2rem;
+    width: 8rem;
+    margin-left: 1rem;
+}
+
+
+.menu-gr{
+    float: right;
+    width: 60%;
+    height: 2rem;
+    
+}
+
+.nav-img{
+    height: 2rem;
+    width: auto;
+}
+
+.home-icon{
+    height: 2rem;
+    width: auto;
+    float: right;
+    padding-right: 1em;
+}
+.home-icon:hover{
+    border-bottom: 2px solid gray;
+    opacity: 70%;
+}
+
+.profile-icon{
+    height: 2rem;
+    width: auto;
+    float: right;
+    padding-left: 2rem;
+    border-left: 1px solid;
+    border-color: black;
+    border-radius: 20px;
+}
+.profile-icon:hover{
+    opacity: 70%;
+}

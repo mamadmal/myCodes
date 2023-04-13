@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'mitra';
+    src: url('/fonts/mitra.ttf') format('truetype');
+  }
+#root{
+    font-family: 'mitra', sans-serif;
+    font-weight: 700;
+  }
+  
